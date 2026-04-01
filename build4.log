@@ -1,0 +1,75 @@
+
+> curriculum-tool@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled with warnings.
+
+[eslint] 
+src\components\admin\AdminSnippetsView.js
+  Line 4:10:  'Button' is defined but never used  no-unused-vars
+
+src\components\admin\Curriculum\CurriculumEditor.js
+  Line 92:11:  'textAreaRef' is assigned a value but never used  no-unused-vars
+
+src\components\admin\JuniorLessonManager.js
+  Line 2:48:  'X' is defined but never used                                                                                   no-unused-vars
+  Line 19:8:  React Hook useEffect has a missing dependency: 'loadLessons'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\admin\QuestionManager.js
+  Line 1:38:   'useMemo' is defined but never used                                                                               no-unused-vars
+  Line 2:21:   'Plus' is defined but never used                                                                                  no-unused-vars
+  Line 2:56:   'Code' is defined but never used                                                                                  no-unused-vars
+  Line 8:7:    'generateId' is assigned a value but never used                                                                   no-unused-vars
+  Line 22:8:   React Hook useEffect has a missing dependency: 'loadQuestions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 51:39:  Function declared in a loop contains unsafe references to variable(s) 'order'                                     no-loop-func
+
+src\components\common\JuniorLMS.js
+  Line 33:8:  React Hook useEffect has a missing dependency: 'loadLevelData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\teacher\InstructorSnippetsView.js
+  Line 3:26:  'CheckCircle' is defined but never used    no-unused-vars
+  Line 3:86:  'AlertTriangle' is defined but never used  no-unused-vars
+
+src\components\teacher\RevisionChallengesView.js
+  Line 3:23:  'Code' is defined but never used                                                                                   no-unused-vars
+  Line 15:8:  React Hook useEffect has a missing dependency: 'fetchRevisions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\teacher\TeacherDashboard.js
+  Line 139:8:  React Hook useEffect has a missing dependency: 'updateCurrentUser'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  104.54 kB  build\static\js\309.6eec0b2c.chunk.js
+  59.11 kB   build\static\js\main.a06ec045.js
+  39.97 kB   build\static\js\603.6b50e38a.chunk.js
+  26.3 kB    build\static\js\253.1175291e.chunk.js
+  20.09 kB   build\static\js\871.63ec11e8.chunk.js
+  13.64 kB   build\static\js\425.3c8a2254.chunk.js
+  11.24 kB   build\static\css\main.7191e4dd.css
+  7.35 kB    build\static\js\927.a476bd67.chunk.js
+  6.96 kB    build\static\js\384.d9ea96f3.chunk.js
+  4.82 kB    build\static\js\230.5b1d50a3.chunk.js
+  2.63 kB    build\static\js\357.0355c507.chunk.js
+  1.77 kB    build\static\js\453.9c55c18b.chunk.js
+  779 B      build\static\js\799.ed87d88c.chunk.js
+  626 B      build\static\js\212.1eb54477.chunk.js
+
+The project was built assuming it is hosted at /training-instructor/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
